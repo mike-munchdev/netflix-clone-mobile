@@ -4,7 +4,7 @@ The Netflix Clone using React Native & Expo and <a href="https://www.themoviedb.
 
 ## YouTube Walkthrough
 
-https://www.youtube.com/watch?v=NHqVU8zvQTo
+<a href="https://www.youtube.com/watch?v=NHqVU8zvQTo" target="_blank">YouTube Walkthrough</a>
 
 ## Getting Started
 
