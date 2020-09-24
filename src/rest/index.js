@@ -1,4 +1,4 @@
-import API_KEY from './apiKey';
+import API_KEY from './keys';
 
 export const baseImageURI = 'https://image.tmdb.org/t/p/w500';
 export const requests = {
@@ -7,4 +7,6 @@ export const requests = {
   fetchHistoryMovies: `/discover/movie?api_key=${API_KEY}&with_genres=36&certification_country=US&certification=G`,
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99&certification_country=US&certification=G`,
   fetchWesternMovies: `/discover/movie?api_key=${API_KEY}&with_genres=37&certification_country=US&certification=G`,
+  fetchVideosForMovie: (movieId) =>
+    `/movie/${movieId}/videos?api_key=${API_KEY}`,
 };

@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import {
   ActivityIndicator,
-  Dimensions,
   ImageBackground,
   StyleSheet,
   Text,
@@ -9,7 +8,7 @@ import {
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import http from '../rest/http';
-import { baseImageURI } from '../rest/requests';
+import { baseImageURI } from '../rest';
 import Header from './Header';
 
 const FeaturedMovie = ({ fetchUrl }) => {
